@@ -22,9 +22,10 @@ function changeImage(x,image){
         image.src = "./images/pexels-photo-1040880-removebg-preview.png";
     }
 }
-const parentContainer =document.querySelector('.this');
-parentContainer.addEventListener('click', event=>{
-    const current = event.target;
-    
-})
+function show(){
+    document.getElementById("More").style.display="flex"
+    // document.getElementById("Learn").style.display="none"
+}
+
+   
 

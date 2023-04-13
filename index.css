@@ -39,7 +39,7 @@
 .is{
     position: relative;
     background-color: white;  
-  
+    top: 70px;
 }
 .icon {
    position: absolute;margin-left: 540px;margin-top: 80px;
@@ -55,14 +55,16 @@ padding-bottom: 30px;
 .this{
     display: flex;
     text-align: center;
-    gap: 40px;padding-top: 310px;padding-bottom: 50px;padding-left: 150px;
-    background-color: rgb(243, 239, 239);padding-right: 150px;
-    border-radius:0 0 50% 50%;margin-top: -140px;
+    gap: 40px;
+    padding-top: 310px;padding-left: 150px;
+    background-color: rgb(243, 239, 239);
+    padding-right: 150px;
+    border-radius:0 0 30% 30%;margin-top: -140px;
     bottom: 80px;
     position: relative;
     z-index: -1;
     display: none;
-     height: 700px; 
+     height: 700px;  
 }
 .this .bt1{
     height: 30px;width: 30px;border-radius: 50%;
@@ -72,12 +74,13 @@ padding-bottom: 30px;
 .this h1{
     margin-bottom: 30px;
 }
-.data a{
-    text-decoration: none;
+.data button{
+    border: none;
     color: rgb(35, 18, 48) ;
     background-color:#44ffa1;
     padding: 10px 10px;
-    font-weight: bold;   
+    font-weight: bold;  
+    font-size: 20px; 
 }
 .work a{
     text-decoration: underline;
