@@ -26,6 +26,21 @@ function show(){
     document.getElementById("More").style.display="flex"
     // document.getElementById("Learn").style.display="none"
 }
-
+function changColor(){
+    document.getElementById("change").style.backgroundColor="white"
+    document.getElementById("change").style.color="rgb(35, 18, 48)"
+}
+function staColor(){
+    document.getElementById("change").style.backgroundColor="#44ffa1"
+    document.getElementById("change").style.color="rgb(35, 18, 48)"
+}
+function changeColor(){
+    document.getElementById("Learn").style.backgroundColor="white"
+    document.getElementById("Learn").style.color="rgb(35, 18, 48)"
+}
+function stayColor(){
+    document.getElementById("Learn").style.backgroundColor="#44ffa1"
+    document.getElementById("Learn").style.color="rgb(35, 18, 48)"
+}
    
 
